@@ -29,7 +29,9 @@ Nexus operates as a modular pipeline with five integrated components:
 ---
 
 ## 🏗️ Architecture
-<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/5f0889c9-0556-4587-99cc-067c1995f6fb" />
+<p align="center">
+  <img src="<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/5f0889c9-0556-4587-99cc-067c1995f6fb" />" width="700"/>
+</p>
 
 1. **Raw Data Ingestion**  
    Sales and weather data are extracted and stored locally  
