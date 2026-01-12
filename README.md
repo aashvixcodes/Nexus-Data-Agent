@@ -96,11 +96,13 @@ Nexus operates as a modular pipeline with five integrated components:
 
 ## 🧩 Use Cases
 
-- **Marketing Teams:** Optimize ad spend based on revenue ROI and weather impact  
-- **Sales Leaders:** Track performance trends and receive risk alerts  
-- **Executives:** Get daily strategy briefs without opening dashboards  
-- **Operations Teams:** Simulate outcomes using what-if analysis
-- 
+It is an autonomous revenue intelligence system that turns raw sales and weather data into actionable insights. It automatically processes data, updates live Tableau dashboards, and uses generative AI to interpret trends and push executive-ready recommendations directly to Slack. Nexus replaces passive dashboards with proactive, AI-driven decision support.
+- Built a fully autonomous analytics pipeline from ingestion to insight delivery  
+- Successfully integrated generative AI into a real BI workflow  
+- Achieved live Tableau Cloud synchronization without manual refreshes  
+- Delivered proactive Slack alerts in less than 10 seconds instead of passive dashboards  
+- Designed a system that feels like a real-world enterprise product  
+
 ---
 
 ## 🚀 Installation & Setup
@@ -155,10 +157,11 @@ View updated dashboards in Tableau Cloud
 
 Receive Slack alerts with executive summaries
 
-
+---
 📄 License
 Distributed under the MIT License.
 See LICENSE for more information.
+---
 
 Built with ❤️ by Aashvi
 
