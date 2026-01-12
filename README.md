@@ -2,7 +2,7 @@
 ### *Autonomous Revenue Intelligence System*
 
 **Nexus** is an autonomous revenue intelligence system that transforms raw sales and weather data into actionable executive insights.  
-It goes beyond traditional dashboards by automatically ingesting data, generating AI-driven analysis, refreshing live Tableau dashboards, and proactively delivering strategic summaries via Slack, all without manual intervention.  
+It goes beyond traditional dashboards by automatically ingesting data, generating AI-driven analysis, refreshing live Tableau dashboards, and proactively delivering strategic summaries via **Slack**, all without manual intervention.  
 it bridges the gap between operational metrics and decision-making by combining data engineering, generative AI, and cloud BI into a single intelligent pipeline.
 
 ---
