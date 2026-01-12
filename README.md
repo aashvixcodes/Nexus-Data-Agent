@@ -1,8 +1,18 @@
 # 🔮 Nexus Data Agent  
 ### *Autonomous Revenue Intelligence System*
 
-**Nexus** is a full-stack intelligent agent designed to transform raw sales and weather data into strategic insights.  
-Unlike traditional dashboards, Nexus autonomously ingests, analyzes, visualizes, and communicates performance metrics — bridging the gap between operational data and executive decision-making.
+**Nexus** is an autonomous revenue intelligence system that transforms raw sales and weather data into actionable executive insights.  
+It goes beyond traditional dashboards by automatically ingesting data, generating AI-driven analysis, refreshing live Tableau dashboards, and proactively delivering strategic summaries via Slack, all without manual intervention.  
+it bridges the gap between operational metrics and decision-making by combining data engineering, generative AI, and cloud BI into a single intelligent pipeline.
+
+---
+
+## 🎯 Why Nexus?
+
+Most organizations rely on static dashboards that:
+- Update infrequently  
+- Require manual interpretation  
+- Depend heavily on analysts for insights  
 
 ---
 
@@ -19,8 +29,6 @@ Nexus operates as a modular pipeline with five integrated components:
 ---
 
 ## 🏗️ Architecture
-
-**Linear Data Flow:**
 
 1. **Raw Data Ingestion**  
    Sales and weather data are extracted and stored locally  
@@ -80,4 +88,75 @@ Nexus operates as a modular pipeline with five integrated components:
 | Notifications | Slack SDK / Webhooks |
 
 ---
+
+## 🧩 Use Cases
+
+- **Marketing Teams:** Optimize ad spend based on revenue ROI and weather impact  
+- **Sales Leaders:** Track performance trends and receive risk alerts  
+- **Executives:** Get daily strategy briefs without opening dashboards  
+- **Operations Teams:** Simulate outcomes using what-if analysis
+- 
+---
+
+## 🚀 Installation & Setup
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/aashvixcodes/Nexus-Data-Agent.git
+cd Nexus-Data-Agent
+```
+
+2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3️⃣ Set Up Environment Variables
+Create a .env file in the project root:
+```bash
+touch .env
+```
+Add the following configuration:
+
+# Tableau Cloud Credentials
+TABLEAU_SERVER=https://prod-in-a.online.tableau.com
+TABLEAU_SITE_ID=your-site-id
+TABLEAU_TOKEN_NAME=your-token-name
+TABLEAU_TOKEN_VALUE=your-token-value
+TABLEAU_DATASOURCE_NAME=your datasourcxe name
+
+# AI & Notifications
+GROQ_API_KEY=gsk_...
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
+SLACK_CHANNEL_ID=your channel id
+SLACK_TOKEN=your token
+
+4️⃣ Run the Application
+```bash
+streamlit run app.py
+```
+
+📊 Usage Workflow
+
+Open the dashboard:
+```bash
+http://localhost:8501
+
+```
+Trigger the daily ETL job from the Streamlit sidebar
+
+Monitor real-time metrics and AI-generated insights
+
+View updated dashboards in Tableau Cloud
+
+Receive Slack alerts with executive summaries
+
+
+📄 License
+Distributed under the MIT License.
+See LICENSE for more information.
+
+Built with ❤️ by Aashvi
+
+
+
 
